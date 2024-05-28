@@ -1,0 +1,9 @@
+.display {
+  width: flex;
+  padding: 20px;
+  background:  rgb(6, 10, 19);
+  color: #ffffff;
+  font-size: 32px;
+  text-align: right;
+  border-radius: 8px 8px 0 0;
+}
