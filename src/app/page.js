@@ -1,10 +1,11 @@
 "use client";
+
 import React, { useState } from 'react';
 import Button from '../components/Button';
 import Display from '../components/Display';
 import './App.css';
 
-const home = () => {
+const Home = () => {
   const [displayValue, setDisplayValue] = useState('');
   const [operator, setOperator] = useState(null);
   const [firstOperand, setFirstOperand] = useState(null);
@@ -109,4 +110,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;
